@@ -1,0 +1,30 @@
+body{
+    background-color: #4f7149;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+
+}
+.month{
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: #b9ca9e;
+    transition: 1s;
+}
+.month:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+h3{
+    padding-left: 20px;
+}
+p{
+    padding-left: 20px;
+    margin-top: 20px;
+}
