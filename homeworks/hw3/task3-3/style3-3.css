@@ -11,14 +11,14 @@ section{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    gap:30px
+    gap:100px
 }
 section p{
-    width: 80%;
-    font-size: 24px;
+    width: 90%;
+    font-size: 54px;
 }
 section h2{
-    font-size: 46px;
+    font-size: 66px;
     padding-bottom: 20px;
     font-family: Arial, sans-serif;
 }
@@ -32,6 +32,6 @@ section h2{
     background-color: #318e1a;
 }
 p a{
-    font-size: 60px;
+    font-size: 100px;
     color: black;
 }
