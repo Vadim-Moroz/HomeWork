@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap:30px
+}
+section p{
+    width: 80%;
+    font-size: 24px;
+}
+section h2{
+    font-size: 46px;
+    padding-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+#top{
+    background-color: #e43f5c;
+}
+#center{
+    background-color: #53e1e1;
+}
+#bottom{
+    background-color: #318e1a;
+}
+p a{
+    font-size: 60px;
+    color: black;
+}
