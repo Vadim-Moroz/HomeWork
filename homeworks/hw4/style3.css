@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+nav{
+    height: 5vh;
+    background: #D9D9D9;
+}
+main{
+    display: flex;
+}
+
+section{
+    height: 74vh;
+    width: 60vw;
+    background: #A4A4A4;
+}
+.top-aside{
+    height: 40vh;
+    width: 40vw;
+    background: #7F7A7A;
+}
+.bottom-aside{
+    height: 34vh;
+    width: 40vw;
+    background: #615050;
+}
+.footer-top{
+    background: #D9D9D9;
+    height: 10vh;
+}
+.footer-bottom{
+    height: 11vh;
+    background: #AFA9A9;
+}

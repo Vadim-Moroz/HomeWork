@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    height: 20vh;
+    background: #A4A4A4;
+}
+main{
+    display: flex;
+}
+section{
+    height: 20vh;
+    width: 73vw;
+}
+aside{
+    height: 30vh;
+    width: 27vw;
+}
+section, aside{
+    color: #FFF;
+}
+header,footer,section, aside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 400;
+}
+.top{
+    background: #776969;
+}
+.center{
+    background: #643030;
+}
+.bottom{
+    background: #441818;
+}
+.top-aside{
+    background: #937575;
+}
+.bottom-aside{
+    background: #644C4C;
+}
