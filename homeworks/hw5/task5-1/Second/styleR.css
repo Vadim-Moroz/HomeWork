@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.animation{*/
+/*    margin: 100px auto;*/
+/*}*/
+.animation img{
+    width: 300px;
+    height: 300px;
+
+}
+.moon{
+    animation: pre-load 5s linear infinite;
+}
+.ranni{
+    animation: pre-down 5s linear infinite;
+}
+@keyframes pre-load {
+    from{
+        transform: translate(480px, 480px) scale(1.2);
+    }
+    25%{
+        transform: translate(900px, 0px);
+    }
+    50%{
+        transform: translate(400px, -500px) scale(1.2);
+    }
+    75%{
+        transform: translate(-100px, 0px);
+    }
+    to{
+        transform: translate(480px, 480px) scale(1.2);
+    }
+}
+@keyframes pre-down {
+    from{
+        transform: rotate(20deg);
+    }
+    25%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(-20deg);
+    }
+    75%{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(20deg);
+    }
+}
