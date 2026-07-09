@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    text-decoration: none;
+}
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+.form-reg{
+    width: 40vw;
+    background-color: white;
+}
+.form-reg div:nth-child(1) h1{
+    font-family: "Lobster Two", sans-serif;
+    font-size: 48px;
+    margin-top: 40px;
+ }
+.form-reg div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: gray solid 1px;
+    width: 25vw;
+    margin-bottom: 10px;
+}
+
+.form-reg div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: gray solid 1px;
+    width: 25vw;
+}
+.form-reg form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    margin: 5px;
+    width: 250px;
+    height: 30px;
+}
+input[type=text],input[type=password]{
+    border: gray solid 1px;
+    border-radius: 3px;
+    background-color: #e6e5e5;
+}
+form input[type=submit]{
+    border: none;
+    border-radius: 10px;
+    background-color: #59b1e1;
+    color: white;
+}
+form input[name=or]{
+    background-color: #fff;
+    color: black;
+}
+ul li{
+    list-style-type: none;
+}
+form a ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+form a ul li::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("https://e7.pngegg.com/pngimages/175/452/png-clipart-facebook-logo-facebook-icon-logo-facebook-icon-blue-text.png");
+    background-size: cover ;
+}
+form a{
+
+    color: #063073;
+}
+form:last-child{
+    padding: 20px;
+}
+div p a{
+    color: #59b1e1;
+}
