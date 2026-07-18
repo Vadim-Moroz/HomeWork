@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-areas:
+                    "header header"
+                    "content-1 spam-1-aside"
+                    "content-2 spam-1-aside"
+                    "content-2 spam-2-aside"
+                    "content-3 spam-2-aside"
+                    "footer footer";
+}
+.grid header{
+    grid-area: header;
+    background: #8D8484;
+}
+.grid section:nth-child(2){
+    grid-area: content-1;
+    background: #776969;
+}
+.grid section:nth-child(3){
+    grid-area: content-2;
+    background: #643030;
+}
+.grid section:nth-child(4){
+    grid-area: content-3;
+    background: #441818;;
+}
+.grid aside:nth-child(5){
+     grid-area: spam-1-aside;
+     background: #937575;
+ }
+.grid aside:nth-child(6){
+    grid-area: spam-2-aside;
+    background: #644C4C;
+}
+footer{
+    grid-area: footer;
+    background: #BDBDBD;
+}
+div section, aside,header, footer{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+div section, aside{
+    color: #FFF;
+}
+div header, footer{
+    color: #000;
+}
